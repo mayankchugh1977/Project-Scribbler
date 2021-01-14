@@ -29,22 +29,7 @@ function navigateToPost() {
     location.href = "post.html";
 }
 
-function trashPost(postid,trashPostid) {
-    console.log('postid : '+ postid);
-    console.log('trashPostid : '+ trashPostid);
-    // Get the div that opens the modal
-    var div = document.getElementsByClassName(postid);
-
-    // Get the <span> element that closes the modal
-    var close = document.getElementsByClassName(trashPostid);
-
-    // When the user clicks on the trash icon, open the modal 
-    div.onclick = function() {
-        modal.style.display = "block";
-    }
-
-    // When the user clicks on `No` button, close the modal
-    close.onclick = function() {
-        modal.style.display = "none";
-    }
+function trashPost(postid) {    
+    console.log(postid)
+    document.getElementById(postid).style.display = "none";   
 }

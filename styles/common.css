@@ -1,0 +1,25 @@
+.close {
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 26px;    
+  }
+  
+  .signin-btn {
+    background-color: green;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: Abel;
+  }
+
+  .signup{
+    color: blue;
+    font-weight: bolder;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: Abel;
+  }
