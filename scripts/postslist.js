@@ -30,6 +30,5 @@ function navigateToPost() {
 }
 
 function trashPost(postid) {    
-    console.log(postid)
     document.getElementById(postid).style.display = "none";   
 }

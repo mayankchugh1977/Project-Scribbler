@@ -15,49 +15,8 @@ html{
     height: 100%;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px;
-  }
-
-.scribbler-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.scribbler{
-    font-family: 'Montez', cursive; 
-    font-size: 30px;
-    color: blue;
-    margin: 0;
-}
 
 
-
-.sub-scribbler{
-    font-family: 'Marck Script';
-    font-size: 10;
-    color: black;
-    margin: 0;
-}
-  
-.login-buttons-container{
-    padding: 10px;
-}
-  
-.blue-button{
-    background-color: blue;    
-    border: none;
-    color: white;
-    padding: 10px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
 
 .yellow-button{
     border-color: white;
@@ -84,72 +43,16 @@ html{
 } 
 
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    justify-content: center;
-    align-items: center;
-    color: black;
-  }
-  .modal-content{
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 20%;
-  }
-  
-  .modal-head {
-    display: flex;
-    flex-direction: column;
-  }
 
-  .modal-title{
-    align-self: center;
-    font-family: Abel;
-  }
-  
-  .modal-title-left{
-    align-self: left;
-    font-family: Abel;
-  }
 
-  .label-text {
-    font-weight: bold;
-    margin: 10px 0;
-    font-family: Abel;
-  }	
-  form {
-    display: flex;
-    flex-direction: column;
-  }
+
  
   .bottom-banner{
     font-family: Abel;  
     text-align: center;
   }
 
-  input {
-    padding: 5px;
-    height: 30px;
-    position: relative;
-    left: 5px;
-    outline: none;
-    border: 1px solid #cdcdcd;
-    border-color: rgba(0,0,0,.15);
-    background-color: rgb(229, 226, 226);
-    font-size: 16px;
-    font-family: Abel;
-  }
-  
+
   .title-input-text {
     padding: 10px;
     outline: 1;
